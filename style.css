@@ -7,10 +7,19 @@ h1 {
   font-size: 60px;
   font-family: "playfair";
   color: rgb(255, 219, 251);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 p {
-  color: rgb(255, 224, 252);
+  color: rgb(255, 253, 224);
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+}
+
+.p2 {
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
 }
 
 img,
@@ -48,5 +57,7 @@ html {
 }
 
 a {
-  color: rgb(84, 85, 173);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 50px;
 }

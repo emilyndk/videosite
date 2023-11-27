@@ -20,13 +20,15 @@ video {
   gap: 20px;
 }
 
-.p2 {
-}
-
 h1 {
   padding-left: 200px;
 }
 
 p {
   padding-left: 30px;
+}
+
+a {
+  grid-column: 2;
+  grid-row: 2;
 }
