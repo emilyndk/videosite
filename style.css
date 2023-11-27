@@ -6,7 +6,11 @@
 h1 {
   font-size: 60px;
   font-family: "playfair";
-  color: rgb(86, 86, 143);
+  color: rgb(255, 219, 251);
+}
+
+p {
+  color: rgb(255, 224, 252);
 }
 
 img,
@@ -32,5 +36,17 @@ iframe {
 }
 
 html {
-  background-image: url(img/taske.webp);
+  background-color: rgb(248, 208, 255);
+}
+
+.tekst {
+  background-image: url(img/kea.webp);
+  padding-bottom: 300px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  background-size: cover;
+}
+
+a {
+  color: rgb(84, 85, 173);
 }
